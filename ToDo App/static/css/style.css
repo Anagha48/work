@@ -1,0 +1,5 @@
+.container-fluid{
+    height: 590px;
+    background-size: cover;
+    background-image: url('/static/images/img (4).jpg');
+}

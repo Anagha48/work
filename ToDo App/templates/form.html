@@ -1,0 +1,24 @@
+{% extends 'nav.html' %}
+
+{% block content %}
+<div class="container-fluid">
+<div class="container p-5">
+    <h2 class="d-flex justify-content-center text-white">ToDoApp</h2>
+    <form method="POST">
+        <div class="form-group">
+            <input type="text" style="height:50px;" class="form-control mt-4" name="title" placeholder="Title">
+        </div>
+        <div class="form-group">
+            <input style="height:50px;"type="text" class="form-control" name="desc" placeholder="Description">
+        </div>
+        <div class="form-group">
+            <input style="height:50px;" type="date" name="date" class="form-control">
+        </div>
+        <button type="submit" class=" btn-lg btn-block bg-dark text-white">Submit</button>
+    </form>
+</div>
+</div>
+<p>{{msg}}</p>
+
+{% endblock content %}
+                
